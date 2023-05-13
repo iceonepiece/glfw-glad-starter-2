@@ -134,9 +134,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Code\Main.cpp" />
+    <ClCompile Include="Code\Shader.cpp" />
     <ClCompile Include="External\Include\glad\glad.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Code\Shader.h" />
     <ClInclude Include="External\Include\glad\glad.h" />
     <ClInclude Include="External\Include\GLFW\glfw3.h" />
     <ClInclude Include="External\Include\GLFW\glfw3native.h" />
